@@ -42,7 +42,7 @@ export function KanbanBoard() {
   );
 
   return (
-    <div className="flex h-full gap-4 overflow-x-auto p-4">
+    <div className="flex h-full gap-4 overflow-x-auto p-4 snap-x">
       {columns.map((col) => {
         const columnTasks = tasks.filter((t) => t.status === col.id);
         const isOver = dragOverColumn === col.id;
@@ -53,7 +53,7 @@ export function KanbanBoard() {
             initial={{ opacity: 0, x: -12 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: columns.indexOf(col) * 0.08 }}
-            className="flex w-72 shrink-0 flex-col rounded-xl"
+            className="flex h-full min-w-[300px] w-[300px] shrink-0 flex-col rounded-xl snap-center"
             onDragOver={(e) => handleDragOver(e, col.id)}
             onDragLeave={handleDragLeave}
             onDrop={(e) => handleDrop(e, col.id)}
