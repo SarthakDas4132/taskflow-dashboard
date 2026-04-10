@@ -22,8 +22,8 @@ A responsive, high-performance Kanban board application inspired by Jira, built 
 * **Icons:** Lucide React
 
 ## Local Setup Instructions
-1. Clone the repository: `git clone https://github.com/SarthakDas4132/[YOUR-REPO-NAME].git`
-2. Navigate to the directory: `cd [YOUR-REPO-NAME]`
+1. Clone the repository: `git clone https://github.com/SarthakDas4132/taskflow-dashboard.git`
+2. Navigate to the directory: `cd https://github.com/SarthakDas4132/taskflow-dashboard.git`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open `http://localhost:5173` in your browser.
