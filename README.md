@@ -3,7 +3,7 @@
 A responsive, high-performance Kanban board application inspired by Jira, built for the JMD Solutions & Beyond Frontend Developer Assessment.
 
 ## Live Demo
-**(https://taskflow-dashboard-mu.vercel.app/)**
+**[Live Demo](https://taskflow-dashboard-mu.vercel.app/)**
 
 ## Core Features
 * **Interactive Kanban Board:** Full drag-and-drop functionality to move tasks between 'To Do', 'In Progress', 'In Review', and 'Done' columns.
@@ -23,7 +23,7 @@ A responsive, high-performance Kanban board application inspired by Jira, built 
 
 ## Local Setup Instructions
 1. Clone the repository: `git clone https://github.com/SarthakDas4132/taskflow-dashboard.git`
-2. Navigate to the directory: `cd https://github.com/SarthakDas4132/taskflow-dashboard.git`
+2. Navigate to the directory: `cd taskflow-dashboard`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open `http://localhost:5173` in your browser.
